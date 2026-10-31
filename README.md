@@ -2,6 +2,16 @@
 
 A next-word prediction model built with an **LSTM** network in Keras/TensorFlow and served through an interactive **Streamlit** web app. Type the beginning of a sentence and the model predicts the most likely next word.
 
+🔗 **Live Demo:** [Try the app here](https://next-word-pred-using-lstm.streamlit.app)
+
+---
+
+## 🖼️ Demo
+
+![App Screenshot](assets/screenshot.png)
+
+*Streamlit UI: enter a sentence, click **Predict Next Word**, and see the prediction.*
+
 ---
 
 ## 📌 Overview
@@ -40,8 +50,12 @@ LSTM-next-word-prediction/
 ├── tokenizer.pkl           # Fitted Keras tokenizer
 ├── max_len.pkl             # Max sequence length used for padding
 ├── requirements.txt        # Python dependencies
+├── assets/
+│   └── screenshot.png      # UI screenshot used in this README
 └── README.md
 ```
+
+> **Note:** The training dataset (`qoute_dataset.csv`, columns: `quote`, `Author`) is not included in the repo. Add it next to the notebook if you want to retrain.
 
 ## 🚀 Getting Started
 
@@ -106,6 +120,11 @@ To retrain or experiment, open `next_word_pred.ipynb` in Jupyter or Google Colab
 
 Suggestions and pull requests are welcome. Feel free to open an issue to discuss changes.
 
+## 📄 License
+
+Distributed under the MIT License. Add a `LICENSE` file to the repo if you choose this license.
+
 ## 👤 Author
 
 **Sneha**
+Final-year B.Tech CSE (Data Science) student
